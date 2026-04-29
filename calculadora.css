@@ -1,0 +1,55 @@
+body { 
+font-family:'Courier New', Courier, monospace;
+color:aliceblue;
+margin: 20px;
+height: 100vh;
+background-image: url('matrix-digital-background-free-video.jpg');
+background-size: cover;       
+background-position: center;
+background-repeat: no-repeat;
+justify-content: center;
+}
+
+input[type="number"] { 
+width: 80px; 
+margin: 3px; }
+
+
+.resultado { 
+margin-top: 20px; 
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;        
+}
+
+#inserir {
+display: flex;
+justify-content: center;   
+align-items: center;       
+}
+
+h1 {
+display: flex;
+justify-content: center;   
+align-items: center;       
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.um {
+    display: flex;
+    flex-direction: column;  
+    gap: 10px;      
+}
+
+button{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    border-color: green;
+}
